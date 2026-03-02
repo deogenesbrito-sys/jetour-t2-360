@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: transparent; }
+        .cloudimage-360 { width: 100%; height: 100vh; }
+    </style>
+</head>
+<body>
+    <div class="cloudimage-360" 
+         data-folder="https://raw.githubusercontent.com/deogenesbrito-sys/jetour-t2-360/main/" 
+         data-filename-x="carro-{index}.webp" 
+         data-amount="12"
+         data-autoplay="true">
+    </div>
+    <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/3.5.0/js-cloudimage-360-view.min.js"></script>
+    <script>window.onload = function(){ if(window.CI360) window.CI360.init(); }</script>
+</body>
+</html>
